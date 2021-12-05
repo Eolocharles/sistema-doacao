@@ -4,9 +4,9 @@ import br.com.lp2.core.domain.User;
 import br.com.lp2.core.ports.driven.email.SendEmailTokenConfirmationPort;
 import br.com.lp2.core.ports.driven.repository.SaveUserRepositoryPort;
 import br.com.lp2.core.ports.driver.CreateUserPort;
+import org.springframework.stereotype.Service;
 
-import java.util.UUID;
-
+@Service
 public record CreateUserByEmailValidation(SendEmailTokenConfirmationPort sendEmailTokenConfirmationPort,
                                           SaveUserRepositoryPort saveUserRepositoryPort) implements CreateUserPort {
 
