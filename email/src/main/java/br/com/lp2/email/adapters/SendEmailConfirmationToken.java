@@ -1,8 +1,6 @@
 package br.com.lp2.email.adapters;
 
-import br.com.lp2.core.ports.driven.SendEmailTokenConfirmationPort;
-
-import javax.xml.transform.stream.StreamSource;
+import br.com.lp2.core.ports.driven.email.SendEmailTokenConfirmationPort;
 
 public class SendEmailConfirmationToken implements SendEmailTokenConfirmationPort {
 
