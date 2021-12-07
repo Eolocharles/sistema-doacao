@@ -12,6 +12,10 @@
     <artifactId>email</artifactId>
     <dependencies>
         <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-mail</artifactId>
+        </dependency>
+        <dependency>
             <groupId>br.com.lp2</groupId>
             <artifactId>core</artifactId>
             <version>1.0-SNAPSHOT</version>

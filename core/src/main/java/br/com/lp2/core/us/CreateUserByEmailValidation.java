@@ -2,13 +2,13 @@ package br.com.lp2.core.us;
 
 import br.com.lp2.core.domain.User;
 import br.com.lp2.core.ports.driven.email.SendEmailTokenConfirmationPort;
-import br.com.lp2.core.ports.driven.repository.SaveUserRepositoryPort;
+import br.com.lp2.core.ports.driven.repository.UserRepositoryPort;
 import br.com.lp2.core.ports.driver.CreateUserPort;
 import org.springframework.stereotype.Service;
 
 @Service
 public record CreateUserByEmailValidation(SendEmailTokenConfirmationPort sendEmailTokenConfirmationPort,
-                                          SaveUserRepositoryPort saveUserRepositoryPort) implements CreateUserPort {
+                                          UserRepositoryPort saveUserRepositoryPort) implements CreateUserPort {
 
     @Override
     public String apply(User user){
