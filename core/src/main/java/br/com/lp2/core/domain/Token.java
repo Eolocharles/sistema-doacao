@@ -2,6 +2,7 @@ package br.com.lp2.core.domain;
 
 import lombok.Getter;
 import lombok.Setter;
+import org.apache.commons.lang3.RandomStringUtils;
 
 import java.time.LocalDateTime;
 
@@ -11,8 +12,9 @@ public class Token {
     private String value;
     private LocalDateTime expireAt;
 
-    public Token(){
+    public Token(int n){
         this.expireAt = LocalDateTime.now().plusMinutes(30);
+        this.value = RandomStringUtils.randomAlphabetic(n);
     }
 
     public boolean hasExpired(){
