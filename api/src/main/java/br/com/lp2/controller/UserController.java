@@ -2,10 +2,10 @@ package br.com.lp2.controller;
 
 import br.com.lp2.controller.request.UserRequest;
 import br.com.lp2.controller.response.UserResponse;
-import br.com.lp2.core.ports.driver.CreateUserPort;
-import br.com.lp2.core.ports.driver.DeleteUserByIdPort;
-import br.com.lp2.core.ports.driver.EnableUserByTokenPort;
-import br.com.lp2.core.ports.driver.FindUserByIdPort;
+import br.com.lp2.core.ports.driver.userdriver.CreateUserPort;
+import br.com.lp2.core.ports.driver.userdriver.DeleteUserByIdPort;
+import br.com.lp2.core.ports.driver.userdriver.EnableUserByTokenPort;
+import br.com.lp2.core.ports.driver.userdriver.FindUserByIdPort;
 import org.springframework.web.bind.annotation.*;
 
 @RestController

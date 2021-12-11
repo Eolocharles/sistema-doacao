@@ -1,8 +1,8 @@
-package br.com.lp2.core.us;
+package br.com.lp2.core.us.itemUS;
 
 import br.com.lp2.core.domain.Item;
 import br.com.lp2.core.ports.driven.repository.ItemRepositoryPort;
-import br.com.lp2.core.ports.driver.FindItemByIdPort;
+import br.com.lp2.core.ports.driver.itemdriver.FindItemByIdPort;
 import org.springframework.stereotype.Service;
 
 @Service

@@ -1,7 +1,7 @@
-package br.com.lp2.core.us;
+package br.com.lp2.core.us.userUS;
 
 import br.com.lp2.core.ports.driven.repository.UserRepositoryPort;
-import br.com.lp2.core.ports.driver.EnableUserByTokenPort;
+import br.com.lp2.core.ports.driver.userdriver.EnableUserByTokenPort;
 import org.springframework.stereotype.Service;
 
 @Service

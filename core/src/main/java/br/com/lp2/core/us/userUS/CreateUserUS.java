@@ -1,10 +1,10 @@
-package br.com.lp2.core.us;
+package br.com.lp2.core.us.userUS;
 
 import br.com.lp2.core.domain.Token;
 import br.com.lp2.core.domain.User;
 import br.com.lp2.core.ports.driven.email.SendEmailTokenConfirmationPort;
 import br.com.lp2.core.ports.driven.repository.UserRepositoryPort;
-import br.com.lp2.core.ports.driver.CreateUserPort;
+import br.com.lp2.core.ports.driver.userdriver.CreateUserPort;
 import org.springframework.stereotype.Service;
 
 @Service
