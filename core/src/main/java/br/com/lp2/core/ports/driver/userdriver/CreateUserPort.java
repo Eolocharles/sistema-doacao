@@ -4,5 +4,5 @@ import br.com.lp2.core.domain.User;
 
 public interface CreateUserPort {
 
-    User apply(User user);
+    User apply (User user);
 }

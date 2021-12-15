@@ -4,5 +4,5 @@ import br.com.lp2.core.domain.User;
 
 public interface FindUserByIdPort {
 
-    User apply(String id);
+    User apply (String id);
 }

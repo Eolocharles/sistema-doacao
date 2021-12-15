@@ -13,10 +13,7 @@
 
     <dependencies>
 
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-data-mongodb</artifactId>
-        </dependency>
+
 
         <dependency>
             <groupId>br.com.lp2</groupId>

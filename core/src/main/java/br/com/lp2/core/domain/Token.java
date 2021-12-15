@@ -16,6 +16,7 @@ public class Token {
         this.expireAt = LocalDateTime.now().plusMinutes(30);
         this.value = RandomStringUtils.randomAlphabetic(n);
     }
+    public Token(){};
 
     public boolean hasExpired(){
         return this.expireAt.isBefore(LocalDateTime.now());
